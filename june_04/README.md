@@ -29,6 +29,4 @@ Python supports AI and ML development through frameworks such as TensorFlow, PyT
 Python scripts automate repetitive tasks, system administration, software testing, CI/CD pipelines, and cloud infrastructure management. 
 •	Cybersecurity and Network Programming
 Python is used for penetration testing, vulnerability assessment, network monitoring, log analysis, and security tool development. 
-•	These answers are suitable for exp
-•	
 
