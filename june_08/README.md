@@ -4,3 +4,26 @@ Apache Spark follows a master-worker architecture for distributed data processin
 The Cluster Manager is responsible for allocating resources and distributing tasks across the available worker nodes. It receives requests from the Spark Context and decides where tasks should be executed.
 The Worker Nodes perform the actual computation. Each worker node executes one or more Tasks, which are small units of work created from the Spark application. Worker nodes can also use Cache Memory to store intermediate data in memory. This caching feature improves performance by reducing the need to repeatedly read data from disk.
 When a Spark job is submitted, the Driver Program sends it to the Cluster Manager, which distributes the tasks among the Worker Nodes. The worker nodes process the tasks in parallel and return the results to the Driver Program. This architecture enables Spark to achieve high-speed, scalable, and fault-tolerant data processing for big data applications.
+
+# PySpark DataFrame Exercises
+
+## Description
+This project demonstrates PySpark DataFrame operations such as filtering, sorting, aggregations, grouping, string functions, and report generation.
+
+## Technologies Used
+- Python
+- PySpark
+
+## Topics Covered
+- DataFrame Creation
+- Select Operations
+- Filter Operations
+- Sorting
+- Aggregations
+- GroupBy
+- String Functions
+- Derived Columns
+- Report Generation
+
+## Author
+Thanish Laus
