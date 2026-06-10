@@ -3,7 +3,6 @@
 This project assessments demonstrates how to work with CSV and JSON files using PySpark DataFrames.
 
 ## Tasks Completed
-
 ### CSV Operations
 - Loaded flights.csv file
 - Displayed flight booking details
@@ -23,23 +22,13 @@ This project assessments demonstrates how to work with CSV and JSON files using 
 - Calculated total potential revenue
 - Flattened nested JSON structure
 - Saved flattened data as Parquet file
-
-## Technologies Used
-
-- Python
-- Apache Spark
-- PySpark
-- Google Colab
-
 ## Files Created
-
 - flights.csv
 - hotels.json
 - confirmed_flights.parquet
 - hotels_flattened.parquet
 
 ## Learning Outcomes
-
 - Reading CSV files
 - Reading JSON files
 - Working with nested JSON data
@@ -47,6 +36,34 @@ This project assessments demonstrates how to work with CSV and JSON files using 
 - Filtering and aggregations
 - Creating derived columns
 - Exporting data in Parquet format
+
+#ASSESSMENT II
+
+## CSV Operations
+- Read CSV file
+- Identify null values
+- Count null values
+- Drop rows with nulls
+- Fill missing values
+- Create data quality status
+- Calculate revenue and averages
+- Save cleaned data as Parquet
+
+## JSON Operations
+- Read nested JSON file
+- Flatten JSON structure
+- Identify missing values
+- Fill null values
+- Create customer quality status
+- Generate reports
+- Save cleaned data as CSV and Parquet
+
+## Files Created
+- bookings.csv
+- clean_bookings.parquet
+- customers.json
+- customers_flat.parquet
+- clean_customers.csv
 
 ## Author
 Thanish Laus
