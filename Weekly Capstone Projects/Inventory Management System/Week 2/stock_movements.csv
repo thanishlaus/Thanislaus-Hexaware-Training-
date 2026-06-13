@@ -1,0 +1,9 @@
+product_id,product_name,quantity,reorder_level,movement_date
+101,Laptop,50,10,2025-08-01
+102,Mouse,30,20,2025-08-01
+103,Keyboard,25,15,2025-08-03
+101,Laptop,-45,10,2025-08-05
+102,Mouse,-15,20,2025-08-06
+103,Keyboard,-20,15,2025-08-07
+104,Monitor,5,10,2025-08-08
+105,Printer,8,12,2025-08-08
