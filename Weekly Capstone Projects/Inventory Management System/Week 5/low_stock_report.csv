@@ -1,0 +1,6 @@
+product_id,product_name,reorder_level,current_stock,status
+101,Laptop,10,5,REORDER
+102,Mouse,20,15,REORDER
+103,Keyboard,15,5,REORDER
+104,Monitor,10,5,REORDER
+105,Printer,12,8,REORDER
