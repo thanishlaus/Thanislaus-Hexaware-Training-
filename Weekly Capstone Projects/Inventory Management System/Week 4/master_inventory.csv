@@ -1,0 +1,4 @@
+product_id,warehouse_id,product_name,category,reorder_level,warehouse_name,total_stock,stock_status,reorder_flag
+101,1,Laptop,Electronics,10,Chennai Warehouse,28,Understocked,YES
+102,1,Mouse,Electronics,20,Chennai Warehouse,28,Understocked,YES
+103,2,Keyboard,Electronics,15,Coimbatore Warehouse,215,Overstocked,NO

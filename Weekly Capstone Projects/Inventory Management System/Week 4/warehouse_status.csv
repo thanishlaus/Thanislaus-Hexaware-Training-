@@ -1,0 +1,4 @@
+warehouse_id,warehouse_name,total_stock,stock_status
+1,Chennai Warehouse,28,Understocked
+2,Coimbatore Warehouse,215,Overstocked
+3,Madurai Warehouse,12,Understocked
