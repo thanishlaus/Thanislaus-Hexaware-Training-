@@ -1,143 +1,189 @@
 # Online Course Enrollment and Progress Tracker
-## Project Overview
-This repository contains the first two weeks of the Online Course Enrollment and Progress Tracker Capstone Project. The project focuses on managing student enrollments, tracking course progress, performing data preprocessing, and generating analytical reports using MySQL, MongoDB, Python, Pandas, and NumPy.
----
-# Week 1: Database Foundations (MySQL & MongoDB)
-## Business Objective
-Develop a database system to manage students, courses, enrollments, progress tracking, and course feedback efficiently.
 
-## Technologies Used
+## Project Overview
+
+This repository contains an end-to-end capstone project focused on tracking student enrollments, monitoring course progress, analyzing completion rates, and generating automated reports.
+
+The project is implemented using MySQL, MongoDB, Python, Pandas, NumPy, and PySpark, following a structured week-by-week development approach.
+
+---
+
+## Project Structure
+
+```text
+Online-Course-Enrollment-Tracker/
+│
+├── Week1_Database_Foundations/
+├── Week2_Data_Preprocessing/
+├── Week3_PySpark_Analytics/
+├── Week4_ETL_Pipeline/
+├── Week5_Automation/
+│
+└── README.md
+```
+
+---
+
+## Week 1: Database Foundations
+
+### Technologies Used
+
 * MySQL
 * MongoDB
-* SQL
-* MongoDB Compass
 
-## Key Tasks Performed
+### Key Tasks Performed
 
-### Database Design
-* Created Students table
-* Created Courses table
-* Created Enrollments table
-* Created Progress table
-* Defined Primary and Foreign Keys
-
-### CRUD Operations
-* Insert Student Records
-* Insert Course Records
-* Create Enrollments
-* Update Progress Information
-* Delete Enrollment Records
-
-### Stored Procedure
-* Calculate Student Course Completion Percentage
-* Generate Student Progress Summary
-
-### MongoDB Integration
-* Store Student Feedback
-* Store Course Reviews
-* Manage JSON Documents
-
-### Database Optimization
-* Create Student Indexes
-* Create Course Indexes
-* Improve Query Performance
+* Created Students, Courses, Enrollments, and Progress tables
+* Performed CRUD operations
+* Developed Stored Procedures
+* Stored feedback using MongoDB
+* Created indexes for optimized queries
 
 ### Deliverables
+
 * MySQL Schema Script
 * CRUD Operations Script
 * Stored Procedure Script
-* MongoDB Feedback Script
-* Index Creation Script
+* MongoDB Script
 
 ---
 
-# Week 2: Data Preprocessing using Python
-## Business Objective
-Load, clean, validate, and analyze enrollment and course progress data to generate meaningful reports and insights.
+## Week 2: Data Preprocessing using Python
 
-## Technologies Used
+### Technologies Used
+
 * Python
 * Pandas
 * NumPy
-* CSV Files
 
-## Datasets Used
-* students.csv
-* courses.csv
-* enrollments.csv
-* progress.csv
+### Key Tasks Performed
 
-## Key Tasks Performed
-### Data Ingestion
-* Read CSV Files
-* Validate Dataset Structure
-* Check Record Counts
-
-### Data Cleaning
-* Handle Missing Values
-* Remove Duplicate Records
-* Validate Completion Percentages
-
-### Data Transformation
-* Standardize Progress Values
-* Create Cleaned Dataset
-* Apply Data Quality Checks
-
-### Data Analytics
-* Calculate Average Student Progress
-* Calculate Course Completion Rates
-* Generate Course-Level Summaries
-
-### Report Generation
-* Export Cleaned Data
-* Generate Completion Reports
-* Create Progress Analysis Reports
+* Loaded CSV datasets
+* Cleaned missing and invalid data
+* Removed duplicates
+* Calculated average progress
+* Generated course completion reports
 
 ### Deliverables
+
 * Data Cleaning Script
 * Analysis Script
 * Cleaned Dataset
-* Course Completion Report
+* Completion Report
 
 ---
-# Technologies Used
+
+## Week 3: PySpark Analytics
+
+### Technologies Used
+
+* PySpark
+* Python
+
+### Key Tasks Performed
+
+* Loaded enrollment and progress datasets
+* Performed data joins
+* Calculated course completion rates
+* Identified dropout students
+* Generated analytical reports
+
+### Deliverables
+
+* PySpark Analysis Script
+* Course Completion Report
+* Dropout Analysis Report
+
+---
+
+## Week 4: ETL Pipeline and Data Integration
+
+### Technologies Used
+
+* PySpark
+* Google Colab
+
+### Key Tasks Performed
+
+* Integrated student, course, enrollment, and progress datasets
+* Built ETL workflow
+* Generated final analytical dataset
+* Exported final course tracker report
+
+### Deliverables
+
+* ETL Notebook
+* Final Course Tracker Dataset
+* Progress Analysis Report
+
+---
+
+## Week 5: Automation and Reporting
+
+### Technologies Used
+
+* Python
+* Pandas
+
+### Key Tasks Performed
+
+* Automated weekly reporting
+* Identified students requiring follow-up
+* Generated course-wise progress reports
+* Exported automated reports
+
+### Deliverables
+
+* Automation Script
+* Weekly Progress Report
+* Student Follow-Up Report
+
+---
+
+## Technologies Used
+
 * MySQL
 * MongoDB
 * Python
 * Pandas
 * NumPy
+* PySpark
+* Google Colab
 * CSV Files
 
 ---
-# Concepts Covered
+
+## Concepts Covered
+
 * Database Design
-* SQL CRUD Operations
+* CRUD Operations
 * Stored Procedures
 * Database Indexing
-* MongoDB Document Storage
 * Data Ingestion
 * Data Cleaning
-* Missing Value Handling
 * Data Validation
 * Data Transformation
 * Data Aggregation
-* Report Generation
+* PySpark Analytics
+* ETL Pipeline Development
+* Automated Reporting
 
 ---
 
-# Learning Outcomes
-Through these weeks, the following concepts were implemented:
+## Learning Outcomes
+
+Through this project, the following concepts were implemented:
+
 * Relational Database Design
 * SQL Query Development
-* CRUD Operations
-* Stored Procedures
-* MongoDB Integration
+* MongoDB Document Storage
 * Data Cleaning using Pandas
-* NumPy Calculations
-* Data Validation Techniques
-* Data Aggregation and Reporting
+* NumPy Computations
+* PySpark Data Processing
+* Data Integration and ETL
+* Business Analytics Reporting
+* Automated Report Generation
 
 ---
-
-# Author
+## Author
 **Thanish Laus**
