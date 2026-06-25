@@ -1,0 +1,10 @@
+warehouse_id,warehouse_name,product_id,product_name,quantity
+1,Chennai Warehouse,101,Laptop,5
+1,Chennai Warehouse,102,Mouse,15
+1,Chennai Warehouse,103,Keyboard,8
+2,Coimbatore Warehouse,101,Laptop,120
+2,Coimbatore Warehouse,102,Mouse,85
+2,Coimbatore Warehouse,103,Keyboard,10
+3,Madurai Warehouse,101,Laptop,3
+3,Madurai Warehouse,102,Mouse,5
+3,Madurai Warehouse,103,Keyboard,4

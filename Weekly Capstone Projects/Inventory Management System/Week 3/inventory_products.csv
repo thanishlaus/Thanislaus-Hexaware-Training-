@@ -1,0 +1,4 @@
+product_id,product_name,category,reorder_level
+101,Laptop,Electronics,10
+102,Mouse,Electronics,20
+103,Keyboard,Electronics,15
