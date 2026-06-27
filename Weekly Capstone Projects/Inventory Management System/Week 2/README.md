@@ -3,7 +3,7 @@
 ## Objective
 Analyze inventory stock movement data using Python, Pandas, and NumPy.\
 
-Week2/
+Week2
 stock_movements.csv
 stock_analysis.py
 low_stock_report.csv
