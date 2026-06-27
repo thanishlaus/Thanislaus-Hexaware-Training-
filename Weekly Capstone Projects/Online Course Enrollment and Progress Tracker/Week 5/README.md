@@ -4,6 +4,19 @@
 
 Automate weekly reporting and identify students who require additional support based on course completion progress.
 
+Week5_Automation/
+
+data/
+   final_course_tracker.csv
+
+scripts/
+   weekly_report.py
+
+output/
+   students_needing_followup.csv
+   weekly_progress_report.csv
+
+
 ## Technologies Used
 
 - Python
