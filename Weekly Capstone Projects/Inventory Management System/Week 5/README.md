@@ -4,6 +4,14 @@
 
 Automate inventory monitoring and low-stock reporting.
 
+## Week 5 Deliverable Files
+
+-stock_movements.csv
+
+-low_stock_report.csv
+
+-Week5_Inventory_Automation.ipynb
+
 ## Tasks Completed
 
 - Automated inventory checks.
