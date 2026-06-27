@@ -5,9 +5,9 @@ Analyze inventory stock movement data using Python, Pandas, and NumPy.\
 
 Week2
 
-stock_movements.csv
-stock_analysis.py
-low_stock_report.csv
+-stock_movements.csv
+-stock_analysis.py
+-low_stock_report.csv
 
 ## Tasks Completed
 - Loaded stock movement data from CSV.
