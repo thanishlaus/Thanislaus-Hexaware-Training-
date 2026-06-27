@@ -3,7 +3,8 @@
 Load, clean, validate, and analyze enrollment and course progress data to generate meaningful reports and insights.
 
 ## Week2_Data_Preprocessing/
- data/
+ 
+ ## data
    students.csv
    
    courses.csv
@@ -12,12 +13,12 @@ Load, clean, validate, and analyze enrollment and course progress data to genera
    
    progress.csv
 
-##scripts/
+## scripts
    data_cleaning.py
    
    analysis.py
 
-##output/
+## output
    cleaned_progress.csv
    
    course_completion_report.csv
