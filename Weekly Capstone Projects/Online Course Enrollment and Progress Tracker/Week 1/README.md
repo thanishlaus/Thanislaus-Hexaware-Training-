@@ -6,6 +6,16 @@ This repository contains the first two weeks of the Online Course Enrollment and
 ## Business Objective
 Develop a database system to manage students, courses, enrollments, progress tracking, and course feedback efficiently.
 
+Week1_Database_Foundations/
+│
+├── mysql_schema.sql
+├── sample_data.sql
+├── crud_operations.sql
+├── stored_procedure.sql
+├── mongodb_feedback.js
+├── README.md
+└── screenshots/
+
 ## Technologies Used
 * MySQL
 * MongoDB
