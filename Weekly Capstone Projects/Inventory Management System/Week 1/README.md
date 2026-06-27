@@ -4,8 +4,7 @@
 
 Build the database foundation for the Inventory Management System using MySQL and MongoDB.
 
-Week1/
-
+Week 1 Deliverable Files
 schema.sql
 crud.sql
 stored_procedure.sql
