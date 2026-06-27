@@ -2,6 +2,21 @@
 ## Business Objective
 Load, clean, validate, and analyze enrollment and course progress data to generate meaningful reports and insights.
 
+Week2_Data_Preprocessing/
+ data/
+   students.csv
+   courses.csv
+   enrollments.csv
+   progress.csv
+
+scripts/
+   data_cleaning.py
+   analysis.py
+
+output/
+   cleaned_progress.csv
+   course_completion_report.csv
+
 ## Technologies Used
 * Python
 * Pandas
