@@ -4,6 +4,22 @@
 
 Analyze student enrollments and course progress using PySpark to generate completion and dropout reports.
 
+Week3_PySpark_Analytics/
+
+data/
+   students.csv
+   courses.csv
+   enrollments.csv
+   progress.csv
+
+scripts/
+   course_analysis.py
+
+ output/
+   course_completion_report.csv
+   dropout_report.csv
+
+
 ## Technologies Used
 
 - PySpark
