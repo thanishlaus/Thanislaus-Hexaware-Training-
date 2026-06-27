@@ -4,6 +4,14 @@
 
 Analyze inventory data at the warehouse level using PySpark and identify stock distribution patterns.
 
+## Week 3 Deliverable Files
+
+-warehouse_stock.csv
+
+-warehouse_analysis.py
+
+-warehouse_status.csv
+
 ## Tasks Completed
 
 - Loaded warehouse inventory data using PySpark.
