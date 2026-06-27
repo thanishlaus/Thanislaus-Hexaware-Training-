@@ -4,6 +4,16 @@
 
 Build an ETL pipeline to integrate product and warehouse inventory data.
 
+## Week 4 Deliverable Files
+
+-inventory_products.csv
+
+-warehouse_status.csv
+
+-master_inventory.csv
+
+-Week4_Inventory_ETL.ipynb
+
 ## Tasks Completed
 
 - Loaded inventory datasets into Azure Databricks.
