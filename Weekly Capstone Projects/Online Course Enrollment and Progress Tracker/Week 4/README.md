@@ -4,6 +4,19 @@
 
 Build an ETL workflow to integrate student, course, enrollment, and progress data into a single analytical dataset.
 
+Week4_ETL_Pipeline/
+
+data/
+   students.csv
+   courses.csv
+   enrollments.csv
+   progress.csv
+
+Week4_ETL_Pipeline.ipynb
+
+output/
+   final_course_tracker.csv
+
 ## Technologies Used
 
 - PySpark
