@@ -1,0 +1,67 @@
+# Azure DevOps CI/CD Learning Notes
+
+## Overview
+
+Today, I learned the fundamentals of **CI/CD (Continuous Integration and Continuous Delivery/Deployment)** using **Azure DevOps**. The session covered the CI/CD workflow, Azure DevOps services, pipeline components, advantages of automation, and software deployment process.
+
+---
+
+## Topics Covered
+
+### Continuous Integration (CI)
+- Introduction to CI
+- Automated code integration
+- Build automation
+- Automated testing
+- Build artifact generation
+
+### Continuous Delivery (CD)
+- Deployment to Development, Testing, UAT, and Production
+- Manual approval before production deployment
+
+### Continuous Deployment
+- Fully automated deployment to production
+- Continuous software delivery
+
+### Azure DevOps Services
+- Azure Repos
+- Azure Pipelines
+- Azure Boards
+- Azure Test Plans
+- Azure Artifacts
+
+### Azure Pipeline Components
+- Pipeline
+- Agent
+- Stage
+- Job
+- Task
+- Artifact
+
+### Advantages of CI/CD
+- Faster software delivery
+- Improved code quality
+- Automated testing
+- Early bug detection
+- Reduced manual effort
+- Consistent deployments
+- Better collaboration
+- Increased productivity
+
+### CI/CD Workflow
+- Code Commit
+- Build
+- Test
+- Package
+- Deploy to Development
+- Deploy to Testing
+- Deploy to UAT
+- Deploy to Production
+
+---
+
+## Learning Outcome
+Gained a clear understanding of CI/CD concepts, Azure DevOps services, pipeline components, deployment workflow, and the benefits of automating software build, testing, and deployment processes.
+
+## Author
+**Thanish Laus**  
