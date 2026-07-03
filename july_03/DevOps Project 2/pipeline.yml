@@ -1,0 +1,35 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+
+# Step 1 - Use Python 3.11
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.11'
+  displayName: 'Use Python 3.11'
+
+# Step 2 - Verify Python Installation
+- script: |
+    python --version
+  displayName: 'Check Python Version'
+
+# Step 3 - Upgrade pip
+- script: |
+    python -m pip install --upgrade pip
+  displayName: 'Upgrade pip'
+
+# Step 4 - Run Loan Eligibility Application
+- script: |
+    python loan_eligibility.py
+  displayName: 'Run Loan Eligibility Application'
+
+# Step 5 - Build Success Message
+- script: |
+    echo "==================================="
+    echo "Loan Eligibility Application Build Successful!"
+    echo "==================================="
+  displayName: 'Build Success'
